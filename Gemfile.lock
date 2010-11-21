@@ -1,0 +1,97 @@
+GIT
+  remote: https://github.com/zena/property.git
+  revision: 204175fc458b1bd2048b4bd6b2f60eabad7cd602
+  tag: REL-1.3.0
+  specs:
+    property (1.3.0)
+      activerecord
+
+GIT
+  remote: https://github.com/zena/zafu.git
+  revision: 939bf7641245ace88ee0e2fdae219617d7ff3a3e
+  specs:
+    zafu (0.7.5)
+      rubyless (>= 0.7.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    RedCloth (3.0.4)
+    actionmailer (2.3.8)
+      actionpack (= 2.3.8)
+    actionpack (2.3.8)
+      activesupport (= 2.3.8)
+      rack (~> 1.1.0)
+    activerecord (2.3.8)
+      activesupport (= 2.3.8)
+    activeresource (2.3.8)
+      activesupport (= 2.3.8)
+    activesupport (2.3.8)
+    authlogic (2.1.3)
+      activesupport
+    differ (0.1.1)
+    fast_gettext (0.4.17)
+    gettext (2.1.0)
+      locale (>= 2.0.5)
+    git (1.2.5)
+    hpricot (0.8.3)
+    jeweler (1.5.1)
+      bundler (~> 1.0.0)
+      git (>= 1.2.5)
+      rake
+    json (1.4.6)
+    locale (2.0.5)
+    mysql (2.8.1)
+    querybuilder (0.9.3)
+      rubyless (>= 0.7.0)
+    rack (1.1.0)
+    rails (2.3.8)
+      actionmailer (= 2.3.8)
+      actionpack (= 2.3.8)
+      activerecord (= 2.3.8)
+      activeresource (= 2.3.8)
+      activesupport (= 2.3.8)
+      rake (>= 0.8.3)
+    rake (0.8.7)
+    ruby-recaptcha (1.0.0)
+    ruby_parser (2.0.5)
+      sexp_processor (~> 3.0)
+    rubyless (0.8.0)
+      ruby_parser (>= 2.0.4)
+      sexp_processor (>= 3.0.1)
+    sexp_processor (3.0.5)
+    shoulda (2.10.3)
+    syntax (1.0.0)
+    tzinfo (0.3.23)
+    uuidtools (2.0.0)
+    versions (0.3.1)
+      activerecord
+    will_paginate (2.3.15)
+    yamltest (0.7.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  RedCloth (= 3.0.4)
+  authlogic (= 2.1.3)
+  differ (>= 0.1.1)
+  fast_gettext (~> 0.4.16)
+  gettext (>= 1.93.0)
+  hpricot
+  jeweler
+  json (>= 1.1.9)
+  mysql
+  property!
+  querybuilder (>= 0.9.1)
+  rails (= 2.3.8)
+  ruby-recaptcha (= 1.0.0)
+  rubyless (>= 0.7.0)
+  shoulda (= 2.10.3)
+  syntax (= 1.0.0)
+  tzinfo (>= 0.3.12)
+  uuidtools (= 2.0.0)
+  versions (>= 0.3.1)
+  will_paginate (~> 2.3.12)
+  yamltest (>= 0.7.0)
+  zafu!
